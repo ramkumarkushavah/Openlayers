@@ -1,0 +1,41 @@
+#map{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#type, #coordinates {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  padding: 12px;
+  margin: 10px 0 0 55px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+#type > button{
+  padding: 6px 12px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #5cb85c;
+  border: 1px solid #4cae4c;
+  cursor: pointer;
+}
+
+input[type=range] {
+  width: 50%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+label{
+  font-size: 30px;
+  color: #e40f0f
+}

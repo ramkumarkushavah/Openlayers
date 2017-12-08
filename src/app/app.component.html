@@ -1,0 +1,43 @@
+
+<div id='map'></div>
+    <div id="type">
+      <button id="Point">Point</button>
+      <button id="LineString">LineString</button><br>
+      <button id="Polygon">Polygon</button>
+      <button id="Circle">Circle</button>
+      <button id="None">None</button>
+      <form>
+        <label>cluster distance</label><br>
+        <input id="distance" type="range" min="0" max="100" step="1" value="40"/>
+      </form>
+
+      <button id='moveElements'>Move Elements</button>
+      <div id="info">&nbsp;</div>
+
+      <label for="speed"><br>
+        speed:&nbsp;
+        <input id="speed" type="range" min="10" max="999" step="10" value="60">
+      </label><br>
+      <button id="start-animation">Start Animation</button>
+      <button id="export-png" class="btn btn-default"> Download PNG</button><br><br>
+
+      <button id="rotate-left" title="Rotate clockwise">↻</button>
+      <button id="rotate-right" title="Rotate counterclockwise">↺</button><br>
+      <button id="pan-to-london">Pan to London</button>
+      <button id="elastic-to-moscow">Elastic to Moscow</button><br>
+      <button id="bounce-to-istanbul">Bounce to Istanbul</button>
+      <button id="spin-to-rome">Spin to Rome</button><br>
+      <button id="fly-to-bern">Fly to Bern</button>
+      <button id="rotate-around-rome">Rotate around Rome</button><br>
+      <button id="tour">Take a tour</button>
+</div>
+
+
+
+  <div style="display: none;">
+    <!-- Clickable label for Vienna -->
+    <a class="overlay" id="vienna" target="_blank" href="http://en.wikipedia.org/wiki/Vienna">Vienna</a>
+    <div id="marker" title="Marker"></div>
+    <!-- Popup -->
+    <div id="popup" title="Welcome to OpenLayers"></div>
+  </div>
